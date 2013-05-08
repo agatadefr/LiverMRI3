@@ -1,0 +1,14 @@
+Poszczególne kroki : 
+Segmentacja w¹troby z obrazów MRI (Uwaga : saggital plane )
+1) Wczytanie obrazu.
+2) Wybranie region of interests (Przyciêcie obrazu do aby mieæ obszar z watob¹).
+3) Wstêpne wyg³adzenie obrazu wejœciowego.Tutaj zastosowaæ filtry wyg³adzaj¹ce obraz wejœciowy.
+4) Progowanie. (Uwaga : Dobraæ odpowiednie wartoœci progów, aby uchwyciæ w¹trobê bez œledziony)
+5) Operacje morfologicznie : dylatacja, erozja, otwarcie, domkiêcie 
+   Uwaga : Tutaj wa¿ne aby odpowiednio dobraæ radius !
+
+6) Wype³nianie dziur 
+
+7) Wygladzenie obrazu binarnego - smoothing itd...
+8) Koñcowa morfologia/ wypelnianie otworów
+9) Zapis obrazu wejœciowego
